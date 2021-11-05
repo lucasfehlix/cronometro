@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 50rem;
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 8em;
+    color: #222;
+}
+
+.btn {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-iniciar {
+    margin-left: 1rem;
+    background-color: #52c234;
+    outline-style: none;
+}
+.btn-iniciar:hover {
+    background-color: #0f9b0f;
+    font-size: 1.53em;
+}
+.btn-parar {
+    background-color: #F00000;
+    outline-style: none;
+}
+.btn-parar:hover {
+    background-color: #DC281E;
+    font-size: 1.53em;
+}
+.btn-zerar {
+    background-color: #396afc;
+    outline-style: none;
+}
+.btn-zerar:hover {
+    background-color: #2948ff;
+    font-size: 1.53em;
+}
